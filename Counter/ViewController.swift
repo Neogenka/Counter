@@ -41,7 +41,7 @@ final class ViewController: UIViewController {
     
     @IBAction private func decreaseCount() {
         if count == 0 {
-            counterChangeList.text += "\n\(currentDate()): - попытка уменьшить значение меньше 0"
+            counterChangeList.text += "\n\(currentDate()): попытка уменьшить значение меньше 0"
         } else {
             decrement()
             counterText.text = String(count)
